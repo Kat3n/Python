@@ -40,3 +40,47 @@ lesson 1
 #     print('count = ', count, '--i', i, type(i))
 #     count += 1
 
+--------------------------------------------------------------
+Homework_1
+
+#Вывести в консоль все выше перечисленные переменные с добавлением типа данных.
+param_string = 'Kate'
+print('1_param_string = ', type(param_string))
+param_int = 13
+print('2_param_int = ', type(param_int))
+param_float = 13.3
+print('3_param_float = ', type(param_float))
+param_bytes = b'1f'
+print('4_param_bytes = ', type(param_bytes))
+param_list = ['ffj', 'hf','645']
+print('5_param_list = ', type(param_list))
+param_tuple = ('ghhg',)
+print('6_param_tuple = ', type(param_tuple))
+param_set = {'a', 'b', 'c'}
+print('7_param_tuple = ', type(param_set))
+param_frozenSet = frozenset('hbgjberj')
+print('8_param_tuple = ', type(param_frozenSet))
+param_dict = {'key': 'hh', 'key2': 5}
+print('9_param_dict = ', type(param_dict))
+
+#Создать 2 переменные String, создать переменную в которой суммируете эти переменные. Вывести в консоль.
+a = 'Hello '
+b = 'world!'
+c = a + b
+print(c)
+
+#Создать 2 переменные Integer, сумма,деление, умножение. Вывести в консоль.
+a = 11
+b = 5
+c= a+b
+print(c)
+c = a/b
+print(c)
+c = a//b
+print(c)
+c = a*b
+print(c)
+c = a % b
+print(c)
+
+

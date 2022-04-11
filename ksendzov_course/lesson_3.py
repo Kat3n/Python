@@ -112,4 +112,21 @@ for i in test_list:
 
 -----------------------------------------------------------------
 
+            #time.sleep
+
+count = 1
+test_list = [1,2,3,0,88,77,7,1,77]
+
+def summ_function(years, step):
+    result = years + step
+    time.sleep(.500)
+    return  result
+
+for i in test_list:
+    f_result = summ_function(i, count)
+    print('years_old = ', f_result)
+    count += 1
+
+---------------------------------------------------------------------
+
 

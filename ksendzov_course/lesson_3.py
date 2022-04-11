@@ -91,5 +91,25 @@ for i in test_list:
     count += 1                                                
 -----------------------------------------------------------
 
+test_list = [1,2,3,0,88,77,7,1,77]
+print('test_list_no_sort = ', test_list)
+test_list.sort()
+print('test_list_sort___ = ', test_list)
+
+
+
+-------------------------------------------------------------
+
+count = 1
+test_list = [1,2,3,0,88,77,7,1,77]
+def summ_function(a,b):
+    c = a + b
+    return  c
+for i in test_list:
+    print('Function_result = ', summ_function(i, count))
+    count += 1
+
+
+-----------------------------------------------------------------
 
 
